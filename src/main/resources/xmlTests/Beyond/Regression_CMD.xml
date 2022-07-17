@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Student Test Suite">
+
+    <listeners>
+        <listener class-name="com.beyond.reporting.Listeners"/>
+
+    </listeners>
+
+
+    <test name="Initialize and create study test  " preserve-order="true">
+
+        <classes>
+            <class name="Beyon.Command.Cases.IniliazeAndCreateStudyTest.TC001_GetLatestImageFromDockerFile"></class>
+            <class name="Beyon.Command.Cases.IniliazeAndCreateStudyTest.TC002_ExecuteInitializeStudyCommand"></class>
+            <class name="Beyon.Command.Cases.IniliazeAndCreateStudyTest.TC003_VerifyThatStudyFolderCreated"></class>
+            <class name="Beyon.Command.Cases.IniliazeAndCreateStudyTest.TC004_CopyDatasetFromNASDrive"></class>
+            <class name="Beyon.Command.Cases.IniliazeAndCreateStudyTest.TC005_ExecuteMakeFeatureCommand"></class>
+            <class name="Beyon.Command.Cases.IniliazeAndCreateStudyTest.TC006_ExecuteCreateStudyCommand"></class>
+            <class name="Beyon.Command.Cases.IniliazeAndCreateStudyTest.TC007_DeleteTheCreatedStudyFolder"></class>
+        </classes>
+
+
+    </test>
+
+</suite>
+

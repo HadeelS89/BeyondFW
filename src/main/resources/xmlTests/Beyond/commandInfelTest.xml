@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Student Test Suite">
+
+    <listeners>
+        <listener class-name="com.beyond.reporting.Listeners"/>
+
+    </listeners>
+
+
+    <test name="This test for tes the newly added commands for class 1" preserve-order="true">
+
+
+        <classes>
+            <class name ="Beyon.Command.Cases.TC004_VerifyFunctionalityOfTrainCommand"></class>
+        </classes>
+    </test>
+    <test name="This test for tes the newly added commands for class 2" preserve-order="true">
+
+
+        <classes>
+            <class name ="Beyon.Command.Cases.TC03_InitializeStudyFolder_CreateStudy"></class>
+        </classes>
+    </test>
+
+</suite>
+

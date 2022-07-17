@@ -1,0 +1,11 @@
+{
+    "timeseries": {
+        "cum_oil_production": "CUM_OIL",
+        "cum_water_production": "CUM_WTR",
+        "cum_gas_production": "CUM_GAS",
+        "production_days": "CUM_PROD_DAYS"
+    },
+    "well_data": {
+        "perforation": "PERF"
+    }
+}
